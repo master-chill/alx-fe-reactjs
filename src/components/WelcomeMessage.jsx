@@ -1,13 +1,12 @@
-// File: src/App.jsx
-import WelcomeMessage from './components/WelcomeMessage'; // Add this import
-
-function App() {
-  return (
-    <>
-      <WelcomeMessage />  {/* Add this component */}
-      {/* ... existing content ... */}
-    </>
-  )
+// File: src/components/WelcomeMessage.jsx
+function WelcomeMessage() {
+    return (
+        <div>
+            <h1>Hello everyone, I am learning React at ALX!</h1>
+            <p>This is a simple JSX component.</p>
+            <p>I am learning about JSX!</p>
+        </div>
+    );
 }
 
-export default App
+export default WelcomeMessage;
